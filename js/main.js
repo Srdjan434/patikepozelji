@@ -19,3 +19,5 @@ $('#slider').slick({
   autoplay: true,
   autoplaySpeed: 2000,
 });
+
+console.log("proba");
