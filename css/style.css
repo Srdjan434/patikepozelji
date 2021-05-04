@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /* GALLERY */
 ul {
@@ -32,9 +33,10 @@ header {
     box-shadow: 10px 10px 10px 10px #484848;
 }
 .sliderimg img {
-    padding-top:60px;
+    padding-top:80px;
     width:330px;
     height:330px;
+    padding-left: 20px;
 }
 
 #menu ul li a:hover{
@@ -190,6 +192,98 @@ footer {
 
 }
 
+/* HOME PAGE */
+
+#banner-img{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    background-image: url('../img/home/banner-home3.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+}
+#process {
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    display: flex;
+}
+.process-block {
+    width: 20%;
+    height: 500px;
+    background-color: #fff;
+    margin-left: 75px;
+    margin-top: 70px;
+    box-shadow: 10px 10px #484848;
+    border: 1px solid #000;
+    border-radius: 10px 10px;
+}
+.process-block img {
+    width: 236px;
+    height: 150px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.process-block p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-top: 50px;
+}
+#rewiev {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+}
+.rewiev-block {
+    width: 30%;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: #fff;
+    box-shadow: 10px 10px #484848;
+    border: 1px solid #000;
+    border-radius: 10px 10px;
+}
+.rewiev-block img {
+    width: 250px;
+    height: 250px;
+    padding-left: 160px;
+    padding-top: 30px;
+}
+.rewiev-block p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-top: 30px;
+}
+#animation-text {
+    margin-left: 250px;
+}
+#animation-text h1 {
+    font-size: 45px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 150px;
+}
+/*Odraditi animaciju za tekst*/
+#view-more {
+    background-color:#cfcfcf; 
+    height: 50px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px #484848;
+}
+input {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    margin-left: 490px;
+    border: 2px solid #000;
+}
 
 
 
@@ -208,7 +302,3 @@ footer {
 
 
 
-
-
-
-/* HOME */
