@@ -20,19 +20,3 @@ $('#slider').slick({
   autoplaySpeed: 2000,
   arrows: false
 });
-
-var content = 'Dobro dosli na nas sajt! Prikazujemo Vam najbolje materijale i najbolju opremu koja pretvara mastu u stvarnost.<br/> Vase je da nadjete dizajn, nase je da to pretvorimo u delo.';
-
-var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
-
-
-$(ele).hide().appendTo('p').each(function (i) {
-    $(this).delay(100 * i).css({
-        display: 'inline',
-        opacity: 0
-    }).animate({
-        opacity: 1
-    }, 100);
-});
-
-console.log("proba");

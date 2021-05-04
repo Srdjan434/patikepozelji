@@ -150,7 +150,8 @@ footer {
     color:#fff;
 }
 
-/*Responsive for gallery-block*/
+/*Responsive for index page */
+/*Index-gallery-block*/
 @media screen and (max-width:1550px){
     #products {
         width: 100%;
@@ -187,7 +188,8 @@ footer {
         height: 490px;
     }
 }
-/*Responsive for gallery-slider*/
+/*Responsive for index page */
+/* Index-gallery-slider*/
 @media screen and(max-width:1550px){
 
 }
@@ -210,6 +212,7 @@ footer {
     height: 650px;
     margin-top: 50px;
     display: flex;
+    border-top: 2px solid #000;
 }
 .process-block {
     width: 20%;
@@ -236,9 +239,10 @@ footer {
 }
 #rewiev {
     width: 100%;
-    height: 500px;
+    height: 530px;
     margin-top: 50px;
     display: flex;
+    border-bottom: 2px solid #000;
 }
 .rewiev-block {
     width: 30%;
@@ -284,9 +288,34 @@ input {
     margin-left: 490px;
     border: 2px solid #000;
 }
+#search {
+    width: 120px;
+    background-color:#cfcfcf; 
+    height: 80px;
+    border-radius: 20px 20px;
+    box-shadow: 2px 2px #484848;
+    margin-left: 880px;
+    font-size: 20px;
+}
+
+/* Responsive for home page*/
+/*Home-header*/
 
 
-
+/*Home-process*/
+@media  screen and(max-width:1600px) {
+    #process {
+        width: 100%;
+    }
+    .process-block {
+        width: 17%;
+        margin-left: 10px;
+    }
+    .process-block img {
+        padding-left: 40px;
+    }
+    
+}
 
 
 
