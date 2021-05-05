@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-/* GALLERY */
+/* GALLERY PAGE */
 ul {
     list-style-type: none;
 }
@@ -10,36 +10,34 @@ a {
     color:black;
 }
 body {
-    background-image:url('../img/banner.jpg');
+    background-color: #a7c0cd;
+    /*background-image:url('../img/banner.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-    background-attachment:fixed;
+    background-attachment:fixed;*/
 }
 header {
     display:flex;
 }
 #header {
     height:600px;
-    background-color: #9e9e9e;
+    background-color: #607d8b;
 }
 #slider {
     width:60%;
-    height:500px;
+    height:400px;
     margin-left:250px;
     margin-top:100px;
-    border-radius: 10px 10px;
-    /*background-color:#cfcfcf;*/
-    /*border: 1px solid #000;*/
     box-shadow: 10px 10px 10px 10px #484848;
+    background-color: #fff;
 }
 .sliderimg img {
-    padding-top:80px;
-    width:330px;
-    height:330px;
-    padding-left: 20px;
+    padding-top:60px;
+    width:280px;
+    height:280px;
+    padding-left: 10px;
 }
-
-#menu ul li a:hover{
+#menu ul li a{
     color: #fff;
 }
 #logo {
@@ -71,8 +69,11 @@ header {
 }
 #products {
     width: 100%;
+    height: 2000px;
     display: flex;
     flex-wrap: wrap;
+    background-color: #607d8b;
+    margin-top: 70px;
 }
 .block {
     width: 20%;
@@ -80,13 +81,9 @@ header {
     border: 1px solid #000;
     margin-top: 100px;
     margin-left: 75px;
-    border-radius: 10px 10px;
+    /*border-radius: 10px 10px;*/
     box-shadow: 10px 10px #484848;
-    transition:  height 2s;
-    background-color:#cfcfcf;
-}
-.block:hover {
-    height: 550px;
+    background-color:#fff;
 }
 .block img {
     width: 80%;
@@ -107,7 +104,7 @@ header {
 footer {
     width: 100%;
     height: 180px;
-    background-color: #212121;
+    background-color: #607d8b;
     display: flex;
     margin-top: 150px;
 }
@@ -212,23 +209,22 @@ footer {
     height: 650px;
     margin-top: 50px;
     display: flex;
-    border-top: 2px solid #000;
+    background-color: #607d8b;
 }
 .process-block {
     width: 20%;
     height: 500px;
     background-color: #fff;
-    margin-left: 75px;
+    margin-left: 55px;
     margin-top: 70px;
     box-shadow: 10px 10px #484848;
     border: 1px solid #000;
-    border-radius: 10px 10px;
 }
 .process-block img {
     width: 236px;
     height: 150px;
-    padding-top: 100px;
-    padding-left: 70px;
+    padding-top: 80px;
+    padding-left: 30px;
 }
 .process-block p {
     text-align: center;
@@ -237,27 +233,29 @@ footer {
     font-weight: bold;
     padding-top: 50px;
 }
+#more {
+    height: 200px;
+    background-color: #607d8b;
+}
 #rewiev {
     width: 100%;
     height: 530px;
-    margin-top: 50px;
     display: flex;
-    border-bottom: 2px solid #000;
+    background-color: #607d8b;
 }
 .rewiev-block {
     width: 30%;
     height: 450px;
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 40px;
     background-color: #fff;
     box-shadow: 10px 10px #484848;
     border: 1px solid #000;
-    border-radius: 10px 10px;
 }
 .rewiev-block img {
     width: 250px;
     height: 250px;
-    padding-left: 160px;
+    padding-left: 110px;
     padding-top: 30px;
 }
 .rewiev-block p {
@@ -265,59 +263,61 @@ footer {
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 #animation-text {
-    margin-left: 250px;
+    width: 40%;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 400px;
+    box-shadow: 10px 10px #484848;
+    border: 1px solid #000;
+    border-radius: 10px 10px;
 }
 #animation-text h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-family: 'Indie Flower', cursive;
-    padding-top: 150px;
+    text-align:center;
+    padding-top: 50px;
 }
-/*Odraditi animaciju za tekst*/
 #view-more {
-    background-color:#cfcfcf; 
+    background-color:#607d8b; 
     height: 50px;
     border-radius: 20px 20px;
     box-shadow: 2px 2px #484848;
+    color:#fff;
 }
 input {
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     margin-left: 490px;
+    margin-top: 30px;
     border: 2px solid #000;
 }
 #search {
     width: 120px;
-    background-color:#cfcfcf; 
+    background-color:#fff; 
     height: 80px;
     border-radius: 20px 20px;
     box-shadow: 2px 2px #484848;
-    margin-left: 880px;
+    margin-left: 660px;
     font-size: 20px;
 }
 
-/* Responsive for home page*/
-/*Home-header*/
+/* ABOUT PAGE */
 
-
-/*Home-process*/
-@media  screen and(max-width:1600px) {
-    #process {
-        width: 100%;
-    }
-    .process-block {
-        width: 17%;
-        margin-left: 10px;
-    }
-    .process-block img {
-        padding-left: 40px;
-    }
-    
+#heading1 {
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    display: flex;
 }
-
-
+#heading2 {
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+}
 
 
 
