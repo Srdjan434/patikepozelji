@@ -10,23 +10,20 @@
     <div id="process">
         <div class="process-block">
             <img src="img/home/step1.jpg" alt="step1"/>
-            <p> Prvi korak: <br/> Odaberite veličinu i model patika.</p>
+            <p> Prvi korak: <br/> Odaberite veličinu i model patika.<br/><br/><br/><br/><br/><a href="about.php"> Saznaj više.. </a></p>
         </div>
         <div class="process-block">
             <img src="img/home/step2.jpg" alt="step1"/>
-            <p> Drugi korak: <br/> Pošaljite nam zeljeni dizajn.</p>
+            <p> Drugi korak: <br/> Pošaljite nam zeljeni dizajn.<br/><br/><br/><a href="about.php"> Saznaj više.. </a></p>
         </div>
         <div class="process-block">
             <img src="img/home/step3.png" alt="step3"/>
-            <p> Treći korak: <br/> Uz izabran model i dizajn, dobija se proizvod koji ste sami dizajnirali.</p>
+            <p> Treći korak: <br/> Uz izabran model i dizajn, dobija se proizvod koji ste sami dizajnirali.<br/><br/><a href="about.php"> Saznaj više..</a></p>
         </div>
         <div class="process-block">
             <img src="img/home/step4.png" alt="step4"/>
-            <p> Četvrti korak: <br/> Preuzimte vaše patike i budite jedinstveni u gradu!</p>
+            <p> Četvrti korak: <br/> Preuzimte vaše patike i budite jedinstveni u gradu!<br/><br/><a href="about.php"> Saznaj više.. </a></p>
         </div>
-    </div>
-    <div id="more">
-        <a href="about.html"><input type="submit" id="search" name="submit" value="Saznaj vise"/></a>
     </div>
     <div id="rewiev">
         <div class="rewiev-block">
@@ -41,6 +38,9 @@
             <img src="img/home/shipping.png" alt="shipping"/>
             <p> Vršimo dostavu na teritoriji cele Srbije.</p>
         </div>
+    </div>
+    <div id="up">
+        <a href="#header"><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <?php 

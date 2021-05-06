@@ -1,7 +1,7 @@
 <footer>
         <div id="social">
             <ul>
-                <li><a href="https://www.whatsapp.com/"><b>WhatsApp</b></a></li>
+                <li class="whats"><a href="https://www.whatsapp.com/"><b>WhatsApp</b></a></li>
                 <li><a href="https://www.instagram.com/"><b>Instagram</b></b></a></li>
                 <li><a href="https://www.viber.com/en/"><b>Viber</b></a></li>
             </ul>
@@ -10,7 +10,6 @@
             <p><b><a href="https://www.instagram.com/vlajnicdesign/"> Vlajnic-Design &copy; </a></b></p>
         </div>
         <div id="calls">
-            <!--<p><b> Call: +648130448</b></p>-->
             <p><b> WhatsApp & call: +648130448</b></p>
             <p><b> Instagram: <a href="https://www.instagram.com/patikepozelji/">@patikepozelji</b></a></p>
         </div>

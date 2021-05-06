@@ -1,6 +1,34 @@
     <?php
         include "data/header.php"   
     ?>
+
+    <div id="news">
+        <h2>! ! ! NOVO U PONUDI ! ! !</h2>
+        <button id="myBtn">Pogledaj..</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Pripremili smo za Vas nesto novo, od sada dizajn koji izaberete mozemo odraditi na vasim patikama bez kupovine Air Force patika.<br/> To nije sve, takodje mozemo uraditi i prepravku nekog dizajna, sakriti ogrebotine ili obojiti cele patike i to po ceni od samo 50$</p>
+            </div>
+        </div>
+        <script>
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("myBtn");
+            var span = document.getElementsByClassName("close")[0];
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+        </script>
+    </div>    
+
     <div id="products">
             <div class="block">
                 <img src="img/Waves.jpg" alt="AF1Waves"/>
@@ -67,7 +95,6 @@
         <a href="#header"><i class="fas fa-arrow-up"></i></a>
     </div>
 
-    
     <?php 
         include "data/footer.php"
     ?>

@@ -20,34 +20,3 @@ $('#slider').slick({
   autoplaySpeed: 2000,
   arrows: false
 });
-
-//var products;
-//window.onload = function (){
-//$.ajax({
-//    url: "data/products.json",
-//    method : "get",
-//    dataType : "json",
-//    success : function(result){
-//        products = result;
-//        printProducts(result);
-//        console.log(result);
-//    },
-//    error: function(xhr){
-//        console.log(xhr)
-//    }
-//});
-//}
-
-//function printProducts(data){
-//    let print = "";
-//    for (let element of data){
-//        ispis =`<div class="block">
-//                    <img src="${element.img.src}" alt="${element.img.alt}"/>
-//                    <p class="description">${element.name}</p>
-//                    <s>$${element.price.old}</s>
-//                    <p class="price">$${element.price.new}</p>
-//                    <p> ${printStars(element.stars)}</p>
-//                </div>`
-//    }
-//    $("#products").html(print);
-//}

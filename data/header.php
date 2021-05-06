@@ -17,7 +17,7 @@
 <header>
         <div id="header">
             <div id="logo">
-                <a href="home.html"><img src="img/logoPatike4.png" alt="logo"/></a>
+                <a href="home.php"><img src="img/logoPatike4.png" alt="logo"/></a>
             </div>
             <nav id="menu">
                 <ul>

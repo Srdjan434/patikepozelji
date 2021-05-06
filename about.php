@@ -1,15 +1,15 @@
-    <?php 
-        include "data/footer.php"
+    <?php
+        include "data/header.php"   
     ?>
     <div id="heading1">
         <div class="about">
           <h1> O nama..</h1>
-          <p> Dobro došli na naš sajt, mi Vam omogućavamo da budete jedinstveni u vašem gradu. <br/> Nalazimo se u Pančevu na adresi "Mihajla Petrovića Alasa 11" i vaše želje nam možete poslati na e-mail adresu: <br/>"nemanjavlajnic@gmail.com".</p>
+          <p> Dobro došli na naš sajt, mi Vam omogućavamo da budete jedinstveni u vašem gradu. <br/> Nalazimo se u Pančevu na adresi "Mihajla Petrovića Alasa 11" i vaše želje nam možete poslati na e-mail adresu: <br/>"nemanjavlajnic17@gmail.com".</p>
           <div class="icons">
             <i class="fas fa-map-marker-alt"> Mihajla Petrovića Alasa 11</i><br/>
             <i class="fab fa-whatsapp"> 0648130448</i><br/>
             <i class="fab fa-instagram"> @patikepozelji</i><br/>
-            <i class="fas fa-envelope"> nemanjavlajnic@gmail.com</i>
+            <i class="fas fa-envelope"> nemanjavlajnic17@gmail.com</i>
           </div>
         </div>
         <div class="location">

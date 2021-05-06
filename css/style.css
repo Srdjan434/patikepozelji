@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 /* GALLERY PAGE */
@@ -31,8 +32,8 @@ header {
     height:400px;
     margin-left:300px;
     margin-top:100px;
-    box-shadow: 10px 10px 10px 10px #484848;
-    background-color: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 60px 70px -10px;
+    background-color: #607d8b;
 }
 .sliderimg img {
     padding-top:60px;
@@ -43,14 +44,17 @@ header {
 #menu ul li a{
     color: #fff;
 }
+#menu ul li a:hover {
+    color:#9a0007;
+}
 #logo {
     width:100%;
 }
 #menu ul li  {
     font-size: 25px;
     padding-top: 70px;
-    padding-left: 60px;
-    font-family: 'Indie Flower', cursive;
+    padding-left: 70px;
+    font-family: 'Kanit', sans-serif;
 }
 #buttonList {
     width: 20%;
@@ -61,7 +65,7 @@ header {
     border-radius: 20px 20px;
 }
 .btn {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 .btn:hover {
     color:#fff;
@@ -81,7 +85,7 @@ header {
     margin-top: 100px;
     margin-left: 75px;
     /*border-radius: 10px 10px;*/
-    box-shadow: 10px 10px #484848;
+    box-shadow: rgb(38, 57, 77) 0px 60px 70px -10px;
     background-color:#fff;
 }
 .block img {
@@ -93,12 +97,12 @@ header {
 .description {
     text-align: center;
     font-size: 25px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 .price {
     text-align: center;
     font-size: 25px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 footer {
     width: 100%;
@@ -114,10 +118,13 @@ footer {
     text-align: center;
     margin-top: 25px;
     font-size: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
 }
 #social ul li a {
     color:#fff;
+}
+#social ul li a:hover {
+    color:#9a0007;
 }
 #copy {
     width: 33%;
@@ -126,71 +133,30 @@ footer {
     text-align: center;
     padding-top: 50px;
     font-size: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     color:#fff;
 }
 #copy p a {
     color:#fff;
 }
-
+#copy p a:hover {
+    color:#9a0007;
+}
 #calls {
     width: 33%;
 }
 #calls p {
     text-align: center;
     font-size: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     color:#fff;
 }
 #calls p a {
     color:#fff;
 }
-
-/*Responsive for index page */
-/*Index-gallery-block*/
-@media screen and (max-width:1550px){
-    #products {
-        width: 100%;
-    }
-    .block {
-        width:18%;
-        height: 490px;
-    }
+#calss p a:hover {
+    color:#9a0007;
 }
-@media screen and (max-width:1115px){
-    #products {
-        width: 100%;
-    }
-    .block {
-        width:35%;
-        height: 490px;
-    }
-}
-@media screen and (max-width:770px){
-    #products {
-        width: 100%;
-    }
-    .block {
-        width:37%;
-        height: 490px;
-    }
-}
-@media screen and (max-width:610px){
-    #products {
-        width: 100%;
-        height: 2500px;
-    }
-    .block {
-        width:70%;
-        height: 490px;
-    }
-}
-/*Responsive for index page */
-/* Index-gallery-slider*/
-@media screen and(max-width:1550px){
-
-}
-
 /* HOME PAGE */
 
 #banner-img{
@@ -215,10 +181,10 @@ footer {
     width: 20%;
     height: 500px;
     background-color: #fff;
-    margin-left: 30px;
+    margin-left: auto;
     margin-top: 70px;
-    box-shadow: 10px 10px #484848;
     border: 1px solid #000;
+    border-radius: 20px 20px;
     text-align: center;
     padding: 30px;
 }
@@ -227,41 +193,38 @@ footer {
 }
 .process-block p {
     font-size: 25px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     font-weight: bold;
     padding-top: 50px;
 }
-#more {
-    height: 200px;
-    background-color: #607d8b;
+.process-block p a:hover{
+    font-weight: bolder;
+    color:#9a0007;
 }
 #rewiev {
     width: 100%;
-    height: 530px;
+    height: 650px;
     display: flex;
     background-color: #607d8b;
 }
 .rewiev-block {
     width: 30%;
     height: 450px;
-    margin-top: 25px;
-    margin-left: 40px;
+    margin-top: 105px;
+    margin-left: auto;
     background-color: #fff;
-    box-shadow: 10px 10px #484848;
+    border-radius: 20px 20px;
     border: 1px solid #000;
+    text-align: center;
+    padding: 20px;
 }
 .rewiev-block img {
-    width: 250px;
-    height: 250px;
-    padding-left: 170px;
-    padding-top: 30px;
+    max-height: 250px;
 }
 .rewiev-block p {
-    text-align: center;
     font-size: 25px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    padding-top: 10px;
 }
 
 #view-more {
@@ -272,19 +235,17 @@ footer {
     color:#fff;
 }
 input {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     font-weight: bold;
-    margin-left: 490px;
     margin-top: 30px;
     border: 2px solid #000;
+    margin-left: 860px;
 }
 #search {
     width: 120px;
     background-color:#fff; 
     height: 80px;
     border-radius: 20px 20px;
-    box-shadow: 2px 2px #484848;
-    margin-left: 860px;
     font-size: 20px;
 }
 
@@ -309,7 +270,7 @@ input {
 .about p {
     font-size: 25px;
     text-align: justify;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;
     font-weight: bold;
     color: #fff;
 }
@@ -345,7 +306,7 @@ input {
 #heading2 p {
     font-size: 25px;
     text-align: justify;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Kanit', sans-serif;             
     font-weight: bold;
     color: #fff;
     padding-left: 200px;
@@ -362,9 +323,264 @@ input {
     font-size: 30px;
 }
 
+#news h2 {
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif; 
+    text-align: center;
+    font-weight: bold;
+    color: #9a0007;
+}
+#myBtn {
+    width: 150px;
+    height: 50px;
+    background-color: #607d8b;
+    font-size: 20px;
+    color:#fff;
+}
+#myBtn:hover {
+    color:#9a0007;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left:0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+    background-color: #607d8b;
+    color:#fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    font-family: 'Kanit', sans-serif; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 
+/* RESPONSIVE FOR HEADER */
 
+@media screen and (max-width: 1350px){
+    #header {
+        height: inherit;
+    }
+    #logo {
+        width: 100%;
+    }
+    #menu ul li {
+        font-size: 20px;
+    } 
+    #slider {
+        height: 300px;
+        margin-left: 150px;
+    }
+    .sliderimg img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #header {
+        width: 40%;
+        height: inherit;
+    }
+    #menu ul li {
+        font-size: 15px;
+    }
+    #logo {
+        width: 70%;
+    }
+    #slider {
+        height: 280px;
+        margin-left: 50px;
+    }
+    .sliderimg img {
+        width: 170px;
+        height: 170px;
+    }
+}
+@media screen and (max-width: 750px){
+    #header {
+        display: none;
+    }
+    #menu ul li {
+        display: block;
+    }
+    #slider {
+        width: 80%;
+        height: 220px;
+        margin-left: 10%;
+    }
+    .sliderimg img {
+        width: 100px;
+        height: 100px;
+    }
+}
+/* RESPONSIVE FOR ABOUT PAGE */
+
+@media screen and (max-width:1520px){
+    #heading1 {
+        width: 100%;
+        height: inherit;
+    }
+    .about {
+        width: 30%;
+    }
+    .about h1 {
+        font-size: 30px;
+    }
+    .about p {
+        font-size:20px;
+    }
+    .icons, .fab, .fas {
+        font-size: 20px;
+    }
+    .location {
+        width: 30%;
+    }
+    #gmap_canvas {
+        width: 350px;
+        height: 350px;
+        padding-left: 150px;
+    }
+}
+@media screen and (max-width: 1300px){
+    #heading2 {
+        width: 100%;
+        height: inherit;
+    }
+    #heading2 h1 {
+        font-size: 30px;
+        padding-left: 150px;
+    }
+    #heading2 p {
+        font-size: 20px;
+        padding: 50px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 850px){
+    #heading2 {
+        width: 100%;
+        height: inherit;
+    }
+    #heading2 h1 {
+        font-size: 30px;
+        padding-left: 80px;
+    }
+    #heading2 p {
+        font-size: 20px;
+        padding: 20px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 850px){
+    #heading1 {
+        flex-wrap: wrap;
+    }
+    .about {
+        width: 100%;
+    }
+    .about p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .icons, .fab, .fas {
+        font-size: 20px;
+    }
+    .location {
+        width: 100%;
+    }
+    #gmap_canvas {
+        width: 350px;
+        height: 350px;
+        padding-left: 200px;
+    }
+}
+@media screen and (max-width: 570px){
+    #heading1 {
+        flex-wrap: wrap;
+    }
+    .about {
+        width: 100%;
+    }
+    .about p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .icons, .fab, .fas {
+        font-size: 20px;
+    }
+    .location {
+        width: 100%;
+    }
+    #gmap_canvas {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*RESPONSIVE FOR INDEX PAGE-GALLERY */
+
+@media screen and (max-width:1550px){
+    #products {
+        width: 100%;
+    }
+    .block {
+        width:18%;
+        height: 490px;
+    }
+}
+@media screen and (max-width:1115px){
+    #products {
+        width: 100%;
+        height: inherit;
+    }
+    .block {
+        width:35%;
+        height: 490px;
+    }
+}
+@media screen and (max-width:770px){
+    #products {
+        width: 100%;
+        height: inherit;
+    }
+    .block {
+        width:37%;
+        height: 490px;
+    }
+}
+@media screen and (max-width:610px){
+    #products {
+        width: 100%;
+        height: inherit;
+    }
+    .block {
+        width:70%;
+        height: 490px;
+    }
+}
 
 
 
