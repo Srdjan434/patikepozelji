@@ -16,6 +16,9 @@ body {
     background-repeat:no-repeat;
     background-attachment:fixed;*/
 }
+img {
+    max-width: 100%;
+}
 header {
     display:flex;
 }
@@ -41,11 +44,7 @@ header {
     color: #fff;
 }
 #logo {
-    width:10%;
-    height: 200px;
-}
-#logo img {
-    height: 200px;
+    width:100%;
 }
 #menu ul li  {
     font-size: 25px;
@@ -216,19 +215,17 @@ footer {
     width: 20%;
     height: 500px;
     background-color: #fff;
-    margin-left: 70px;
+    margin-left: 30px;
     margin-top: 70px;
     box-shadow: 10px 10px #484848;
     border: 1px solid #000;
+    text-align: center;
+    padding: 30px;
 }
 .process-block img {
-    width: 236px;
-    height: 150px;
-    padding-top: 80px;
-    padding-left: 80px;
+    max-height: 200px;
 }
 .process-block p {
-    text-align: center;
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
