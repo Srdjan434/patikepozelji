@@ -40,7 +40,7 @@
         </div>
     </div>
     <div id="up">
-        <a href="#header"><i class="fas fa-arrow-up"></i></a>
+        <a href="#slider"><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <?php 
