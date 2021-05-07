@@ -8,7 +8,7 @@
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Pripremili smo za Vas nesto novo, od sada dizajn koji izaberete mozemo odraditi na vasim patikama bez kupovine Air Force patika.<br/> To nije sve, takodje mozemo uraditi i prepravku nekog dizajna, sakriti ogrebotine ili obojiti cele patike i to po ceni od samo 50$</p>
+                <p>Pripremili smo za Vas nešto novo, od sada dizajn koji izaberete možemo odraditi na vašim patikama bez kupovine Air Force patika.<br/> To nije sve, takodje mozemo uraditi i prepravku nekog dizajna, sakriti ogrebotine ili obojiti cele patike i to po ceni od samo 50$!</p>
             </div>
         </div>
         <script>

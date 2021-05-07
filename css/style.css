@@ -12,10 +12,6 @@ a {
 }
 body {
     background-color: #a7c0cd;
-    /*background-image:url('../img/banner.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;*/
 }
 img {
     max-width: 100%;
@@ -33,7 +29,8 @@ header {
     margin-left:300px;
     margin-top:100px;
     box-shadow: rgb(38, 57, 77) 0px 60px 70px -10px;
-    background-color: #607d8b;
+    /*background-color: #607d8b;*/
+    border-radius: 80px 50px;
 }
 .sliderimg img {
     padding-top:60px;
@@ -313,6 +310,7 @@ footer {
     background-color: #607d8b;
     font-size: 20px;
     color:#fff;
+    margin-left: 850px;
 }
 #myBtn:hover {
     color:#9a0007;
@@ -602,4 +600,18 @@ footer {
         margin-left: 75px;
     }
 }
-
+@media screen and (max-width:1015px){
+    #myBtn {
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:560px){
+    #myBtn {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width:500px){
+    #myBtn {
+        margin-left: 170px;
+    }
+}
